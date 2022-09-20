@@ -1,0 +1,40 @@
+.navbar-expand-sm{
+    height: 80px;
+}
+.navbar-brand{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 3em; 
+    color:#fff ;
+    font-style: oblique;
+}
+.navbar-nav{
+    padding: 100px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff;
+    font-style: oblique;
+    margin-left: 10px;  
+    transition: transform 0.5s;
+}
+.nav-link:hover{
+    background-color: #3498db;
+    transform: translateY(-20%);
+    border-radius: 20px;}
+table {
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+td {
+    padding-right: 40px;
+}
+p{
+    text-align: justify;
+}

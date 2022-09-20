@@ -1,0 +1,75 @@
+/*-- Signup form CSS --*/
+.navbar-expand-sm{
+    height: 80px;
+}
+.navbar-brand{
+    font-weight: bold;
+    padding: 50px;
+    font-size: 3em; 
+    color:#fff ;
+    font-style: oblique;
+}
+.navbar-nav{
+    padding: 100px;
+}
+.nav-link{
+    font-weight: bold;
+    color: #fff;
+    font-style: oblique;
+    margin-left: 10px;  
+    transition: transform 0.5s;
+}
+.nav-link:hover{
+    background-color: #3498db;
+    transform: translateY(-20%);
+    border-radius: 20px;
+}
+label{
+    color: white;
+}
+form .Signup {
+    border: 1px solid #ddd;
+    padding: 0px 20px;
+    margin: 50px 0px;
+}
+.Signup a {
+    color: #9c27b0;
+}
+.Signup .btn {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 18px;
+    background-color: #9c27b0;
+    border: none;
+}
+label.term-policy {
+    font-weight: 500;
+    margin: 10px 0px 0px;
+}
+.Signup .choose-icon {
+    float: right;
+    margin-top: -38px;
+    background-color: #f5f5f5;
+    padding: 7px 15px;
+    height: 38px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #ccc;
+    position: relative;
+    z-index: 999;
+}
+.Signup #Profile-pic {
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.Signup h3 {
+    margin: 20px 0px 30px;
+    padding: 0px 0px 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+     color: #9c27b0;
+}
+p.not-yet {
+    text-align: center;
+    color: white;
+}

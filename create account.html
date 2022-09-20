@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> create your account</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style signup.css">
+</head>
+
+<body background="signup bg.jpg">
+ <!-- navbarStart -->
+ <nav class="navbar navbar-expand-sm bg-warning fixed-top" style="box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.608);">
+  <img src="ait.gif" width="130px" height="100px">
+  <h6>
+    <p class="navbar-brand">Askari collage</p>
+  </h6>
+  <div>
+    <ul class="navbar-nav">
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="sign in form.html" class="nav-link">Login</a></li>
+      <li class="nav-item"><a href="create account.html" class="nav-link">Sign Up</a></li>
+      <li class="nav-item"><a href="About US.html" class="nav-link">About Us</a></li>
+      <li class="nav-item"><a href="Services.html" class="nav-link">Services</a></li>
+     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+       <ul>  <li>   <a class="dropdown-link" href="#">DAE diploma</a>
+        <ul style="text-decoration:none;">
+            <li style="text-decoration: bold ;"><a href="Computer information technology.html">DAE Civil</a></li>
+            <li><a href="Architechturemtechnology.html">DAE Architecture</a></li>
+            <li><a href="Electrical technology detail.html">DAE Electrical</a></li>
+            <li><a href="Civil technology detail.html">DAE Computer Information </a></li>
+            <li><a href="Mechanical technology detail.html">DAE Mechnical </a></li>
+           </ul>
+        </li>
+           <a class="dropdown-link" href="#"> Short courses</a>
+       </ul>
+    
+
+        </div>
+    </li>
+    </ul>
+  </div>
+</nav>
+<!-- navbarEnd --> 
+  
+
+  <div class="container" style=" background-color: rgba(0, 0, 0, 0.712); border-radius: 50px;">   
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <!-- Sign Up form -->
+        <form action="" class="Signup">
+          <h3>Sign Up Now!!!</h3>
+          <div class="form-group">
+              <label for="name">Full Name</label>
+            <input type="text" class="form-control" placeholder="Full Name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email</label>
+            <input type="text" class="form-control" placeholder="Enter Email" name="email" required>
+          </div>      
+          <div class="form-group">
+              <label for="psw">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password" name="psw" required> 
+          </div>   
+          <div class="form-group">
+            <label for="psw-repeat">Repeat Password</label>
+            <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" required>
+          </div>
+          <div class="form-group">
+            <label>Profile Photo</label>
+            <input type="file" id="Profile-pic" name="channel-img" class="form-control">
+            <label for="Profile-pic" class="choose-icon"><i class="fa fa-camera" aria-hidden="true"></i></label>
+          </div>
+          <div class="form-group">
+            <label class="term-policy"><input type="checkbox"> By creating an account you agree to our <a href="#">Terms & Privacy</a>.</label>
+          </div>
+          <button type="submit" class="btn btn-success">Signup</button>
+          <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+          <hr>
+          <div class="form-group">
+            <p class="not-yet">Already have an account? <a href="sign in form.html">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
